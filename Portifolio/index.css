@@ -1,0 +1,113 @@
+
+@font-face{
+    font-family: 'Dogica';
+    src: url('dogicapixel.ttf') format('truetype');
+}
+
+#cabecalho{
+    text-align: center;
+    font-family: 'Dogica';
+    background-color: rgb(214, 161, 245);
+    padding: 20px;
+    
+}
+#menu{
+    
+    font-family: 'Dogica';
+    text-align: center;
+    font-size: 12pt;
+    height: 36px;
+    
+}
+#menu a{
+    text-decoration: none;
+    color: black;
+}
+#menu a:hover{
+    color: #f7a9dd;
+    
+}
+#menu ul{
+    padding: 6px;
+    left: 20px;
+    
+    
+}
+
+#projetos{
+    background: #98FB98;
+}
+a img{
+    box-shadow: 10px 10px black;
+    margin: 30px;
+    
+}
+a img:hover{
+    box-shadow:  
+    10px 10px  rgb(247, 169, 221),
+    20px 20px rgb(206, 0, 178);
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
+    transition-duration: 0.5s;
+}
+
+#sobre{
+    background-color:#bdcaf7;
+}
+#sobre img{
+    margin: 100px;
+    box-shadow: 10px 10px black;
+}
+
+#contato{
+    background-color: #f7a9dd;
+    height: 100%;
+}
+
+#contato #footer ul li img{
+    box-shadow: none;
+    margin: 0;
+    
+    
+}
+
+#contato #footer ul li img:hover{
+    transition: none;
+    transition-duration: 0;
+    box-shadow: none;
+    -webkit-transform: translateX(0px);
+}
+
+
+
+  ul {
+    display: inline-grid;
+    grid-auto-flow: row;
+    grid-gap: 24px;
+    justify-items: center;
+    margin: auto;
+  }
+  @media (min-width: 500px) {
+    ul {
+      grid-auto-flow: column;
+    }
+  }
+  li {
+    list-style-type: none;
+  }
+  li:hover{
+    -moz-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+  }
+  li:last-child {
+    
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+  }
+  #footer{
+    display: flex;
+    padding: 30px;
+    
+  }
+  
