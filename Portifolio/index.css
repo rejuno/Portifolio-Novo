@@ -3,7 +3,9 @@
     font-family: 'Dogica';
     src: url('dogicapixel.ttf') format('truetype');
 }
-
+#fundo{
+  background-color: rgb(214, 161, 245);
+}
 #cabecalho{
     text-align: center;
     font-family: 'Dogica';
@@ -11,6 +13,7 @@
     padding: 20px;
     
 }
+
 #menu{
     
     font-family: 'Dogica';
@@ -32,6 +35,9 @@
     left: 20px;
     
     
+}
+#fundo2{
+  background: #98FB98;
 }
 
 #projetos{
@@ -85,7 +91,7 @@ a img:hover{
     grid-auto-flow: row;
     grid-gap: 24px;
     justify-items: center;
-    margin: auto;
+    
   }
   @media (min-width: 500px) {
     ul {
@@ -110,4 +116,91 @@ a img:hover{
     padding: 30px;
     
   }
+
+
+
+/* responsive*/
+@media screen and (max-width: 740px ){
+
+  #cabecalho{
+    position: relative;
+    top:-200px;
+    right: -12px;
+  }
+  #fundo{
+   margin-right: -100px;
+   padding: 100px;
+    padding-left: 50px;
+   
+  }
+  #menu{
+    position: relative;
+    top:-174px;
+  }
+  #fundo2{
+    padding: 100px;
+    padding-left: 283px;
+    padding-bottom: 3000px;
+    position: relative;
+  }
+  #calculadora{
+    position: relative;
+    height: 350px;
+    top: -3000px
+ 
+  }
+  #projeto2{
+    height: 350px;
+    position: relative;
+    top: -2900px
+  }
+
+  #projeto3{
+    height: 350px;
+    position: relative;
+    top: -2800px
+  }
   
+  #projeto4{
+    height: 350px;
+    position: relative;
+    top: -2700px
+  }
+  
+  #projeto5{
+    height: 350px;
+    position: relative;
+    top: -2600px
+  }
+  
+  #projeto6{
+    height: 350px;
+    position: relative;
+    top: -2500px
+  }
+  .container{
+    height: 0.5px;
+  }
+  #posicao{
+    position: relative;
+    height: 150px;
+    width: 371px;
+    top: -80px;
+
+    background: #98FB98;
+
+  }
+  #sobre{
+    
+    width: 383px;
+    margin: 0%;
+    padding: 0%;
+    
+}
+#sobre img{
+  height: 250px;
+  position: relative;
+  right: 50px;
+}
+  
+}
